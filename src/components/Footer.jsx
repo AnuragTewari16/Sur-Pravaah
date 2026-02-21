@@ -2,14 +2,14 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className="py-16 px-6 md:px-12" style={{ background: '#2C0A12' }}>
+    <footer className="py-12 md:py-16 px-4 md:px-12" style={{ background: '#2C0A12' }}>
       <div className="max-w-screen-xl mx-auto">
-        <div className="grid md:grid-cols-3 gap-12 mb-12">
+        <div className="grid md:grid-cols-3 gap-8 md:gap-12 mb-10 md:mb-12">
           <div>
-            <h3 className="font-serif text-2xl text-cream mb-1">Sur Pravaah</h3>
+            <h3 className="font-serif text-xl md:text-2xl text-cream mb-1">Sur Pravaah</h3>
             <p className="font-sans text-xs tracking-widest text-gold uppercase mb-4">Classical Music Academy · Jaipur</p>
             <div className="h-px w-8 bg-gold mb-4"/>
-            <p className="font-body text-base text-cream/50 leading-relaxed mb-2">
+            <p className="font-body text-sm md:text-base text-cream/50 leading-relaxed mb-2">
               Preserving and teaching the timeless tradition of Indian Classical Music in the heart of Jaipur.
             </p>
             <p className="font-sans text-xs text-cream/30 leading-relaxed mt-2">
@@ -18,18 +18,18 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-sans text-xs tracking-widest text-gold uppercase mb-6">Contact</h4>
+            <h4 className="font-sans text-xs tracking-widest text-gold uppercase mb-5 md:mb-6">Contact</h4>
             <ul className="space-y-4">
               <li>
-                <a href="mailto:surpravaah@gmail.com" className="flex items-center gap-3 text-cream/60 hover:text-cream transition-colors font-body text-base group">
+                <a href="mailto:surpravaah@gmail.com" className="flex items-center gap-3 text-cream/60 hover:text-cream transition-colors font-body text-sm md:text-base group">
                   <svg className="w-4 h-4 text-gold/60 group-hover:text-gold transition-colors flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                   </svg>
-                  surpravaah@gmail.com
+                  <span className="break-all">surpravaah@gmail.com</span>
                 </a>
               </li>
               <li>
-                <a href="tel:+919936712665" className="flex items-center gap-3 text-cream/60 hover:text-cream transition-colors font-body text-base group">
+                <a href="tel:+919936712665" className="flex items-center gap-3 text-cream/60 hover:text-cream transition-colors font-body text-sm md:text-base group">
                   <svg className="w-4 h-4 text-gold/60 group-hover:text-gold transition-colors flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                   </svg>
@@ -40,7 +40,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-sans text-xs tracking-widest text-gold uppercase mb-6">Follow Us</h4>
+            <h4 className="font-sans text-xs tracking-widest text-gold uppercase mb-5 md:mb-6">Follow Us</h4>
             <div className="flex gap-4">
               <a href="https://youtube.com/@surpravaah4029" target="_blank" rel="noopener noreferrer"
                  className="w-11 h-11 border border-cream/10 flex items-center justify-center text-cream/50 hover:text-cream hover:border-gold/50 transition-all duration-300" aria-label="YouTube">
@@ -58,8 +58,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-cream/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="font-sans text-xs tracking-wider text-cream/30">© 2026 Sur Pravaah. All Rights Reserved.</p>
+        <div className="border-t border-cream/10 pt-6 md:pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="font-sans text-xs tracking-wider text-cream/30 text-center sm:text-left">© 2026 Sur Pravaah. All Rights Reserved.</p>
           <div className="flex items-center gap-2">
             <div className="w-1.5 h-1.5 rounded-full bg-gold/40"/>
             <span className="font-sans text-xs tracking-wider text-cream/20">Classical Music Academy – Jaipur</span>
