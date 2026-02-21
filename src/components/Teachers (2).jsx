@@ -27,7 +27,7 @@ function TeacherCard({ teacher }) {
         <img
           src={teacher.image}
           alt={teacher.name}
-          className={`w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105 absolute inset-0 ${teacher.name === 'Mamta Tewari' ? 'md:object-top object-center' : ''}`}
+          className={`w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105 absolute inset-0 ${teacher.name === 'Mamta Tewari' ? 'md:object-top object-bottom' : ''}`}
         />
         <div className="absolute inset-0 hidden md:block" style={{ background: 'linear-gradient(to right, transparent 65%, #EDE3D4)' }} />
       </div>
