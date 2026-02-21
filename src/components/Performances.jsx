@@ -19,8 +19,8 @@ export default function Performances() {
             <div className="absolute -inset-2 border border-gold/20"/>
             <div className="relative aspect-video bg-maroon/5 overflow-hidden">
               <iframe
-                src="https://www.youtube.com/embed?listType=user_uploads&list=surpravaah4029"
-                title="Sur Pravaah YouTube Channel"
+                src="https://www.youtube.com/embed/P3E1MvQ0Vp0"
+                title="Sur Pravaah Performance"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
